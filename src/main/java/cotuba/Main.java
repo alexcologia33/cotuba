@@ -166,6 +166,7 @@ public class Main {
 					}
 
 				} catch (Exception ex) {
+					ex.printStackTrace();
 					throw new RuntimeException("Erro ao criar arquivo PDF: " + arquivoDeSaida.toAbsolutePath(), ex);
 				}
 

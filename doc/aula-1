@@ -1,0 +1,54 @@
+o que sao classes?
+Classes
+	-receita de bolo
+	-representa obj
+-Coesão
+-responsabilidade unica
+
+Como organizar o codigo?
+Separacao de codigo
+-dominio
+-camada
+-responsabilidade
+-hierarquia
+-polimorfismo
+-interface
+-invercao de controle
+-design patterns
+-padrao de projeto
+
+Desing pattern
+builder
+factor
+strategy
+singleton
+
+linguas OO
+smalltalk
+simula67
+
+UML
+
+SOLID (MATTI)
+---- TELL DONT ASK
+--Passe menos parametros, realize mais operacoes sem precisar passar muitos parametros
+AJUDA A ORGANIZAR A NIVEL DE CODIGO DENTRO DE CADA CLASSE
+5 boas praticas tchau ( by uncle bob)
+
+checkstyle
+
+Performance varios objetos, query só uma coluna
+
+Como trazer colunas via query jpa
+
+Waterfall cascata, documentar antes
+
+
+Professor
+Rodrigo Vieira
+Hackday primeiro dia da sprint - cria algo seu, estudar o que quiser,
+tech talk -- apresentar algo que estuda
+
+
+
+
