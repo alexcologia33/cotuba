@@ -37,9 +37,6 @@ AJUDA A ORGANIZAR A NIVEL DE CODIGO DENTRO DE CADA CLASSE
 
 checkstyle
 
-Performance varios objetos, query só uma coluna
-
-Como trazer colunas via query jpa
 
 Waterfall cascata, documentar antes
 
@@ -48,6 +45,40 @@ Professor
 Rodrigo Vieira
 Hackday primeiro dia da sprint - cria algo seu, estudar o que quiser,
 tech talk -- apresentar algo que estuda
+
+MQTT protocolo mais simples que HTTP (iot)
+
+
+repository -> pode ter dentro dele um DAO ou uma API
+
+dao poderia implementar respository
+
+abstracao para guardar e buscar seu dominio
+
+objetos de dominio só conversao com sua camada somente de dominio
+
+caracteristicas
+alta coesao
+
+quanto menos vc expor atributos para outras classes melhor
+
+public String lerNomeCaptalizado() {
+    return StringUtils.captalize(this.nome);
+}
+
+quebrar encapsulamento colocando getter em tudo, quebrando o estado,
+
+boa praticas nao sao regras
+
+primeiro principio
+
+responsabilidade unica
+
+
+FAZER
+Exercicios na paginas
+pg 14
+
 
 
 
