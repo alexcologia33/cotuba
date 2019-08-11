@@ -6,3 +6,20 @@ target
 .settings
 .build/
 
+/.idea/.name
+/.idea/compiler.xml
+/cotuba-cli.iml
+/.idea/encodings.xml
+/.idea/libraries/Maven__com_atlassian_commonmark_commonmark_0_11_0.xml
+/.idea/libraries/Maven__com_itextpdf_html2pdf_2_0_0.xml
+/.idea/libraries/Maven__com_itextpdf_io_7_1_0.xml
+/.idea/libraries/Maven__com_itextpdf_kernel_7_1_0.xml
+/.idea/libraries/Maven__com_itextpdf_layout_7_1_0.xml
+/.idea/libraries/Maven__commons_cli_commons_cli_1_4.xml
+/.idea/libraries/Maven__net_sf_kxml_kxml2_jar_with_dependencies_2_5_1_SNAPSHOT.xml
+/.idea/libraries/Maven__nl_siegmann_epublib_epublib_core_3_1.xml
+/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml
+/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_6_1.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
