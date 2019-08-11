@@ -17,7 +17,7 @@ mvn install
 
 O `.zip` será gerado na pasta `target`.
 
-Descompacte esse `.zip` em um diretório qualquer.
+Descompacte esse `.zip` no diretório do projeto.
 
 Rode os comandos abaixo nesse diretório.
 
@@ -28,7 +28,13 @@ Se desejar, use os arquivos `.md` do diretório `exemplo`.
 Para gerar um PDF, faça:
 
 ```
-./cotuba.sh -d diretorio/do/livro -f pdf
+cotuba.sh -d exemplo -f pdf
+```
+
+Ou:
+
+```
+java -cp "libs/*" cotuba.Main -d exemplo -f pdf
 ```
 
 Deverá ser gerado um arquivo chamado `book.pdf`.
@@ -38,7 +44,13 @@ Deverá ser gerado um arquivo chamado `book.pdf`.
 Para gerar um EPUB, faça:
 
 ```
-./cotuba.sh -d diretorio/do/livro -f epub
+cotuba.sh -d diretorio/do/livro -f epub
+```
+
+Ou:
+
+```
+java -cp "libs/*" cotuba.Main -d exemplo -f epub
 ```
 
 Deverá ser gerado um arquivo chamado `book.epub`.
