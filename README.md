@@ -34,7 +34,7 @@ cotuba.sh -d exemplo -f pdf
 Ou:
 
 ```
-java -cp "libs/*" cotuba.Main -d exemplo -f pdf
+java -cp "libs/*" cotuba.cli.Main -d exemplo -f pdf
 ```
 
 Deverá ser gerado um arquivo chamado `book.pdf`.
@@ -50,7 +50,7 @@ cotuba.sh -d diretorio/do/livro -f epub
 Ou:
 
 ```
-java -cp "libs/*" cotuba.Main -d exemplo -f epub
+java -cp "libs/*" cotuba.cli.Main -d exemplo -f epub
 ```
 
 Deverá ser gerado um arquivo chamado `book.epub`.

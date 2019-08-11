@@ -1,10 +1,6 @@
-package cotuba;
+package cotuba.md;
 
-import com.itextpdf.html2pdf.HtmlConverter;
-import com.itextpdf.layout.element.AreaBreak;
-import com.itextpdf.layout.element.IBlockElement;
-import com.itextpdf.layout.element.IElement;
-import com.itextpdf.layout.property.AreaBreakType;
+import cotuba.domain.Capitulo;
 import org.commonmark.node.AbstractVisitor;
 import org.commonmark.node.Heading;
 import org.commonmark.node.Node;
@@ -47,8 +43,7 @@ public class RenderizadorMDParaHTML {
                                 public void visit(Heading heading) {
                                     if (heading.getLevel() == 1) {
                                         // capítulo
-                                        String tituloDoCapitulo = ((Text) heading.getFirstChild()).getLiteral();
-                                        capitulo.setTitulo(tituloDoCapitulo);
+                                        capitulo.setTitulo(((Text) heading.getFirstChild()).getLiteral());
                                         // TODO: usar título do capítulo
                                     } else if (heading.getLevel() == 2) {
                                         // seção
@@ -65,7 +60,7 @@ public class RenderizadorMDParaHTML {
                         try {
                             HtmlRenderer renderer = HtmlRenderer.builder().build();
                             String html = renderer.render(document);
-                            capitulo.setTitulo(html);
+                            capitulo.setConteudoHTML(html);
                         } catch (Exception ex) {
                             throw new RuntimeException("Erro ao renderizar para HTML o arquivo " + arquivoMD, ex);
                         }
