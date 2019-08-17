@@ -1,0 +1,39 @@
+Grady Booch -> UML (nao precisa ser rigido a ideia é a comunicação)
+
+Effective Java Joshua (Jostiua) Blocch
+
+Herança vs composição (Classe Properties)
+
+Classes de dominio tem haver com o negocio, devem estar protegidas de alteracoes tecnologicas
+
+CAMADAS
+    Dominio
+        -Nao conversa com nada fora do seu pacote e nao recebe nada fora de seu pacote
+
+TinyTypes
+    -CPF
+        - ante penultimo digito 8 representa sao paulo estado
+    -CNPJ
+
+
+Perguntas
+    Dominio pode vir de API??
+        -Sim o DTO que vem da API transforma em um Dominio
+        -
+    Se o repository vier de um DAO
+        -
+
+
+Service
+    - orchestra o dominio
+    - estimula o dominio a trabalhar
+    -
+
+
+
+
+
+
+
+
+

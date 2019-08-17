@@ -50,10 +50,11 @@ MQTT protocolo mais simples que HTTP (iot)
 
 
 repository -> pode ter dentro dele um DAO ou uma API
+           -> DEFINICAO abstracao para guardar e buscar seu dominio
 
 dao poderia implementar respository
 
-abstracao para guardar e buscar seu dominio
+
 
 objetos de dominio só conversao com sua camada somente de dominio
 
