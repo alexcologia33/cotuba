@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class LeitorOpcoesCLI {
+public class LeitorOpcoesCLI implements ParametrosOpcoesCLI {
 
     Path diretorioDosMD;
     String formato;
@@ -78,6 +78,30 @@ public class LeitorOpcoesCLI {
 
     }
 
+    @Override
+    public Path getDiretorioDosMD() {
+        return diretorioDosMD;
+    }
 
+    public void setDiretorioDosMD(Path diretorioDosMD) {
+        this.diretorioDosMD = diretorioDosMD;
+    }
 
+    @Override
+    public String getFormato() {
+        return formato;
+    }
+
+    public void setFormato(String formato) {
+        this.formato = formato;
+    }
+
+    @Override
+    public Path getArquivoDeSaida() {
+        return arquivoDeSaida;
+    }
+
+    public void setArquivoDeSaida(Path arquivoDeSaida) {
+        this.arquivoDeSaida = arquivoDeSaida;
+    }
 }

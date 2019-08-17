@@ -16,6 +16,12 @@ TinyTypes
     -CNPJ
 
 
+
+Notas:
+    - classes de nivel alto dependem de classes de nivel mais baixo
+    - pg 51, 49, 48,
+
+
 Perguntas
     Dominio pode vir de API??
         -Sim o DTO que vem da API transforma em um Dominio
@@ -28,6 +34,23 @@ Service
     - orchestra o dominio
     - estimula o dominio a trabalhar
     -
+
+Livros
+    TDD Kent Beck
+
+
+Aulas socios emocionais na bandtec
+ -
+ -
+ -
+ -
+ -
+
+
+caelum 3b74
+
+
+
 
 
 

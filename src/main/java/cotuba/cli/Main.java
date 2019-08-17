@@ -2,8 +2,6 @@ package cotuba.cli;
 
 import cotuba.application.Cotuba;
 
-import java.nio.file.Path;
-
 public class Main {
 
 	//gerar pdf gerar epub
@@ -11,23 +9,18 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		LeitorOpcoesCLI leitorOpcoesCLI = new LeitorOpcoesCLI(args);
-
-		Path diretorioDosMD = leitorOpcoesCLI.diretorioDosMD;
-		String formato = leitorOpcoesCLI.formato;
-		Path arquivoDeSaida = leitorOpcoesCLI.arquivoDeSaida;
-		boolean modoVerboso = leitorOpcoesCLI.modoVerboso;
+		LeitorOpcoesCLI opcoesCLI = new LeitorOpcoesCLI(args);
 
 		try {
 
 			Cotuba cotuba = new Cotuba();
-			cotuba.executar(formato, diretorioDosMD, arquivoDeSaida);
+			cotuba.executar(opcoesCLI);
 
-			System.out.println("Arquivo gerado com sucesso: " + arquivoDeSaida);
+			System.out.println("Arquivo gerado com sucesso: " + opcoesCLI.arquivoDeSaida);
 
 		} catch (Exception ex) {
 			System.err.println(ex.getMessage());
-			if (modoVerboso) {
+			if (opcoesCLI.modoVerboso) {
 				ex.printStackTrace();
 			}
 			System.exit(1);
