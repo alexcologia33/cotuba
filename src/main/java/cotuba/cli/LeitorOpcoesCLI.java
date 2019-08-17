@@ -46,6 +46,7 @@ public class LeitorOpcoesCLI implements ParametrosOpcoesCLI {
 
         String nomeDoDiretorioDosMD = cmd.getOptionValue("dir");
 
+
         if (nomeDoDiretorioDosMD != null) {
             diretorioDosMD = Paths.get(nomeDoDiretorioDosMD);
             if (!Files.isDirectory(diretorioDosMD)) {

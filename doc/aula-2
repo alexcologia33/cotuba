@@ -28,7 +28,8 @@ Perguntas
         -
     Se o repository vier de um DAO
         -
-
+Dependencia
+    - Nao podem haver dependencias do pacote inferior no superior
 
 Service
     - orchestra o dominio
@@ -46,11 +47,16 @@ Aulas socios emocionais na bandtec
  -
  -
 
+GRASP
+
+command acoes unica independente envolve sequencia de passos
+
 
 caelum 3b74
 
 
-
+livro
+ - Utilizando UML e Padroes
 
 
 
