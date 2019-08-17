@@ -20,10 +20,6 @@ import java.util.stream.Stream;
 
 public class RenderizadorMDParaHTMLComCommonMark implements RenderizadorMDParaHTML {
 
-    public RenderizadorMDParaHTMLComCommonMark() {
-
-    }
-
     @Override
     public List<Capitulo> renderiza(Path diretorioDosMD) {
         List<Capitulo> capituloList = new ArrayList<>();

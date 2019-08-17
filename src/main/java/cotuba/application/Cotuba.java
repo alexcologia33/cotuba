@@ -23,19 +23,8 @@ public class Cotuba {
         ebook.setCapitulos(capituloList);
         ebook.setFormato(formato);
 
-        if ("pdf".equals(formato)) {
-
-            GeradorPDF gerador = GeradorPDF.cria();
-            gerador.gerar(ebook);
-
-        } else if ("epub".equals(formato)) {
-
-            GeradorEpub gerador = GeradorEpub.cria();
-            gerador.gerar(ebook);
-
-        } else {
-            throw new RuntimeException("Formato do ebook inválido: " + formato);
-        }
+        GeradorEbook gerador = GeradorEbook.cria(formato);
+        gerador.gera(ebook);
     }
 
 }
