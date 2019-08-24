@@ -1,11 +1,13 @@
 package cotuba.cli;
 
+import cotuba.application.FormatoEbook;
+
 import java.nio.file.Path;
 
 public interface ParametrosOpcoesCLI {
     Path getDiretorioDosMD();
 
-    String getFormato();
+    FormatoEbook getFormato();
 
     Path getArquivoDeSaida();
 }

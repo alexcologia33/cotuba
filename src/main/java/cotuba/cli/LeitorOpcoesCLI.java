@@ -1,5 +1,6 @@
 package cotuba.cli;
 
+import cotuba.application.FormatoEbook;
 import org.apache.commons.cli.*;
 
 import java.nio.file.Files;
@@ -9,7 +10,7 @@ import java.nio.file.Paths;
 public class LeitorOpcoesCLI implements ParametrosOpcoesCLI {
 
     Path diretorioDosMD;
-    String formato;
+    FormatoEbook formato;
     Path arquivoDeSaida;
     boolean modoVerboso = false;
 
@@ -60,9 +61,7 @@ public class LeitorOpcoesCLI implements ParametrosOpcoesCLI {
         String nomeDoFormatoDoEbook = cmd.getOptionValue("format");
 
         if (nomeDoFormatoDoEbook != null) {
-            formato = nomeDoFormatoDoEbook.toLowerCase();
-        } else {
-            formato = "pdf";
+            formato = FormatoEbook.valueOf(nomeDoFormatoDoEbook.toUpperCase());
         }
 
         String nomeDoArquivoDeSaidaDoEbook = cmd.getOptionValue("output");
@@ -72,7 +71,7 @@ public class LeitorOpcoesCLI implements ParametrosOpcoesCLI {
                 throw new RuntimeException(nomeDoArquivoDeSaidaDoEbook + " é um diretório.");
             }
         } else {
-            arquivoDeSaida = Paths.get("book." + formato.toLowerCase());
+            arquivoDeSaida = Paths.get("book." + formato.toString().toLowerCase());
         }
 
         modoVerboso = cmd.hasOption("verbose");
@@ -89,11 +88,11 @@ public class LeitorOpcoesCLI implements ParametrosOpcoesCLI {
     }
 
     @Override
-    public String getFormato() {
+    public FormatoEbook getFormato() {
         return formato;
     }
 
-    public void setFormato(String formato) {
+    public void setFormato(FormatoEbook formato) {
         this.formato = formato;
     }
 

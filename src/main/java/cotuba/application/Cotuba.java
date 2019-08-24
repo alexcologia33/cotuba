@@ -11,7 +11,7 @@ public class Cotuba {
 
     public void executar(ParametrosOpcoesCLI parametrosOpcoesCLI) {
 
-        String formato = parametrosOpcoesCLI.getFormato();
+        FormatoEbook formato = parametrosOpcoesCLI.getFormato();
         Path diretorioDosMD = parametrosOpcoesCLI.getDiretorioDosMD();
         Path arquivoDeSaida = parametrosOpcoesCLI.getArquivoDeSaida();
 
