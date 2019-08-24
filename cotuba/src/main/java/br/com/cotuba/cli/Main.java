@@ -1,6 +1,6 @@
-package cotuba.cli;
+package br.com.cotuba.cli;
 
-import cotuba.application.Cotuba;
+import br.com.cotuba.application.Cotuba;
 
 public class Main {
 

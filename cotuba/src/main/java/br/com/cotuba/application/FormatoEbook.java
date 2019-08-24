@@ -1,7 +1,7 @@
-package cotuba.application;
+package br.com.cotuba.application;
 
-import cotuba.epub.GeradorEpub;
-import cotuba.pdf.GeradorPDF;
+import br.com.cotuba.epub.GeradorEpub;
+import br.com.cotuba.pdf.GeradorPDF;
 
 public enum  FormatoEbook {
 

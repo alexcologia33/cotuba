@@ -1,7 +1,7 @@
-package cotuba.application;
+package br.com.cotuba.application;
 
-import cotuba.domain.Capitulo;
-import cotuba.md.RenderizadorMDParaHTMLComCommonMark;
+import br.com.cotuba.domain.Capitulo;
+import br.com.cotuba.md.RenderizadorMDParaHTMLComCommonMark;
 
 import java.nio.file.Path;
 import java.util.List;

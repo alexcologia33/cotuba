@@ -1,9 +1,9 @@
-package cotuba.application;
+package br.com.cotuba.application;
 
-import cotuba.cli.ParametrosOpcoesCLI;
-import cotuba.domain.Capitulo;
-import cotuba.domain.Ebook;
-import cotuba.tema.Plugin;
+import br.com.cotuba.cli.ParametrosOpcoesCLI;
+import br.com.cotuba.domain.Capitulo;
+import br.com.cotuba.domain.Ebook;
+import br.com.cotuba.tema.Plugin;
 
 import java.nio.file.Path;
 import java.util.List;

@@ -1,6 +1,6 @@
-package cotuba.tema;
+package br.com.cotuba.tema;
 
-import cotuba.domain.Ebook;
+import br.com.cotuba.domain.Ebook;
 
 import java.util.ArrayList;
 import java.util.List;

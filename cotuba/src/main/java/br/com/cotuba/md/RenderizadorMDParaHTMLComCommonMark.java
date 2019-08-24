@@ -1,8 +1,8 @@
-package cotuba.md;
+package br.com.cotuba.md;
 
-import cotuba.application.RenderizadorMDParaHTML;
-import cotuba.domain.Capitulo;
-import cotuba.tema.AplicadorTema;
+import br.com.cotuba.application.RenderizadorMDParaHTML;
+import br.com.cotuba.domain.Capitulo;
+import br.com.cotuba.tema.AplicadorTema;
 import org.commonmark.node.AbstractVisitor;
 import org.commonmark.node.Heading;
 import org.commonmark.node.Node;

@@ -1,8 +1,8 @@
-package cotuba.application;
+package br.com.cotuba.application;
 
-import cotuba.domain.Ebook;
-import cotuba.epub.GeradorEpub;
-import cotuba.pdf.GeradorPDF;
+import br.com.cotuba.domain.Ebook;
+import br.com.cotuba.epub.GeradorEpub;
+import br.com.cotuba.pdf.GeradorPDF;
 
 import java.util.HashMap;
 import java.util.Map;

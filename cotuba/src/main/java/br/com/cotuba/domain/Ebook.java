@@ -1,6 +1,6 @@
-package cotuba.domain;
+package br.com.cotuba.domain;
 
-import cotuba.application.FormatoEbook;
+import br.com.cotuba.application.FormatoEbook;
 
 import java.nio.file.Path;
 import java.util.List;

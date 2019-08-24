@@ -1,6 +1,6 @@
-package cotuba.cli;
+package br.com.cotuba.cli;
 
-import cotuba.application.FormatoEbook;
+import br.com.cotuba.application.FormatoEbook;
 
 import java.nio.file.Path;
 
