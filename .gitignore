@@ -23,3 +23,15 @@ target
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/vcs.xml
+/libs/commonmark-0.11.0.jar
+/libs/commons-cli-1.4.jar
+/cotuba.sh
+/libs/cotuba-cli-0.0.1-SNAPSHOT.jar
+/libs/epublib-core-3.1.jar
+/libs/html2pdf-2.0.0.jar
+/libs/io-7.1.0.jar
+/libs/kernel-7.1.0.jar
+/libs/kxml2-2.5.1-20180703.211101-1-jar-with-dependencies.jar
+/libs/layout-7.1.0.jar
+/libs/slf4j-api-1.6.1.jar
+/libs/slf4j-simple-1.6.1.jar
