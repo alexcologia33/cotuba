@@ -1,6 +1,6 @@
-package br.com.cotuba.cli;
+package cotuba.cli;
 
-import br.com.cotuba.application.FormatoEbook;
+import cotuba.application.FormatoEbook;
 import org.apache.commons.cli.*;
 
 import java.nio.file.Files;
@@ -41,7 +41,7 @@ public class LeitorOpcoesCLI implements ParametrosOpcoesCLI {
         try {
             cmd = cmdParser.parse(options, args);
         } catch (ParseException e) {
-            ajuda.printHelp("br/com/cotuba", options);
+            ajuda.printHelp("cotuba", options);
             throw new RuntimeException("Opção inválida", e);
         }
 

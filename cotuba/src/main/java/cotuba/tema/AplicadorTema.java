@@ -1,6 +1,6 @@
-package br.com.cotuba.tema;
+package cotuba.tema;
 
-import br.com.cotuba.domain.Capitulo;
+import cotuba.domain.Capitulo;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 

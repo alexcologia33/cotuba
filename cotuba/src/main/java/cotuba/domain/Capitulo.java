@@ -1,4 +1,4 @@
-package br.com.cotuba.domain;
+package cotuba.domain;
 
 public class Capitulo {
 

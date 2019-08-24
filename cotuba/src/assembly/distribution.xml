@@ -11,8 +11,8 @@
 		  <directory>${project.basedir}/src/scripts</directory>
 		  <outputDirectory>${file.separator}</outputDirectory>
 		  <includes>
-		    <include>br.com.cotuba.sh</include>
-		    <include>br.com.cotuba.bat</include>
+		    <include>cotuba.sh</include>
+		    <include>cotuba.bat</include>
 		  </includes>
 		</fileSet>
 	</fileSets>

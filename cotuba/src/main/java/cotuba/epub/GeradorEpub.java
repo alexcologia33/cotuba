@@ -1,8 +1,8 @@
-package br.com.cotuba.epub;
+package cotuba.epub;
 
-import br.com.cotuba.application.GeradorEbook;
-import br.com.cotuba.domain.Capitulo;
-import br.com.cotuba.domain.Ebook;
+import cotuba.application.GeradorEbook;
+import cotuba.domain.Capitulo;
+import cotuba.domain.Ebook;
 import nl.siegmann.epublib.domain.Book;
 import nl.siegmann.epublib.domain.Resource;
 import nl.siegmann.epublib.epub.EpubWriter;

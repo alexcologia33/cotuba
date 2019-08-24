@@ -1,4 +1,4 @@
-package br.com.cotuba.pdf;
+package cotuba.pdf;
 
 import com.itextpdf.html2pdf.HtmlConverter;
 import com.itextpdf.kernel.pdf.PdfDocument;
@@ -8,9 +8,9 @@ import com.itextpdf.layout.element.AreaBreak;
 import com.itextpdf.layout.element.IBlockElement;
 import com.itextpdf.layout.element.IElement;
 import com.itextpdf.layout.property.AreaBreakType;
-import br.com.cotuba.application.GeradorEbook;
-import br.com.cotuba.domain.Capitulo;
-import br.com.cotuba.domain.Ebook;
+import cotuba.application.GeradorEbook;
+import cotuba.domain.Capitulo;
+import cotuba.domain.Ebook;
 
 import java.nio.file.Files;
 import java.util.Iterator;
