@@ -3,7 +3,7 @@ package cotuba.application;
 import cotuba.cli.ParametrosOpcoesCLI;
 import cotuba.domain.Capitulo;
 import cotuba.domain.Ebook;
-import cotuba.plugin.Plugin;
+import cotuba.plugin.AoFinalizarGeracao;
 
 import java.nio.file.Path;
 import java.util.List;
@@ -26,7 +26,7 @@ public class Cotuba {
 
         formato.getGeradorEbook().gera(ebook);
 
-        Plugin.gerou(ebook);
+        AoFinalizarGeracao.gerou(ebook);
     }
 
 }

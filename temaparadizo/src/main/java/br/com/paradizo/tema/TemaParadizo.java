@@ -1,18 +1,12 @@
 package br.com.paradizo.tema;
 
 
-import cotuba.domain.Ebook;
-import cotuba.plugin.Plugin;
+import cotuba.plugin.Tema;
 
-public class TemaParadizo implements Plugin {
+public class TemaParadizo implements Tema {
     @Override
     public String cssDoTema() {
         System.out.printf("TemaParadizo.cssDoTema");
         return FileUtils.getResourceContents("/tema.css");
-    }
-
-    @Override
-    public void aposGeracao(Ebook ebook) {
-        System.out.printf("TemaParadizo.aposGeracao");
     }
 }
