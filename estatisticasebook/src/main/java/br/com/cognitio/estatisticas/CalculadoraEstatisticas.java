@@ -2,7 +2,7 @@ package br.com.cognitio.estatisticas;
 
 import cotuba.domain.Capitulo;
 import cotuba.domain.Ebook;
-import cotuba.tema.Plugin;
+import cotuba.plugin.Plugin;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 

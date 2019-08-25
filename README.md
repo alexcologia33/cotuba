@@ -44,7 +44,7 @@ Deverá ser gerado um arquivo chamado `book.pdf`.
 Para gerar um EPUB, faça:
 
 ```
-cotuba.sh -d diretorio/do/livro -f epub
+cotuba.sh -d /home/alex/git/cotuba/cotuba/exemplo -f epub
 ```
 
 Ou:

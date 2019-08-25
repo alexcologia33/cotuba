@@ -19,6 +19,7 @@ public class Main {
 			System.out.println("Arquivo gerado com sucesso: " + opcoesCLI.arquivoDeSaida);
 
 		} catch (Exception ex) {
+			ex.printStackTrace();
 			System.err.println(ex.getMessage());
 			if (opcoesCLI.modoVerboso) {
 				ex.printStackTrace();

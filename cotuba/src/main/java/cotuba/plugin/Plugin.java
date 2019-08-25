@@ -1,4 +1,4 @@
-package cotuba.tema;
+package cotuba.plugin;
 
 import cotuba.domain.Ebook;
 
