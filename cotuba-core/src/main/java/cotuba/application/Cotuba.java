@@ -3,6 +3,7 @@ package cotuba.application;
 import cotuba.domain.Capitulo;
 import cotuba.domain.Ebook;
 import cotuba.plugin.AoFinalizarGeracao;
+import cotuba.plugin.GeradorEbook;
 
 import java.nio.file.Path;
 import java.util.List;
@@ -21,7 +22,7 @@ public final class Cotuba {
 
         Ebook ebook = new Ebook(formato, arquivoDeSaida, capitulos);
 
-        formato.getGeradorEbook().gera(ebook);
+        GeradorEbook.criar(formato).gera(ebook);
 
         AoFinalizarGeracao.gerou(ebook, acaoPosGeracao);
     }

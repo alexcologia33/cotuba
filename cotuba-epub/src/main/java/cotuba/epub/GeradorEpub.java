@@ -1,6 +1,7 @@
 package cotuba.epub;
 
-import cotuba.application.GeradorEbook;
+import cotuba.application.FormatoEbook;
+import cotuba.plugin.GeradorEbook;
 import cotuba.domain.Capitulo;
 import cotuba.domain.Ebook;
 import nl.siegmann.epublib.domain.Book;
@@ -33,5 +34,10 @@ public class GeradorEpub implements GeradorEbook {
         } catch (IOException ex) {
             throw new RuntimeException("Erro ao criar arquivo EPUB: " + arquivoDeSaida.toAbsolutePath(), ex);
         }
+    }
+
+    @Override
+    public FormatoEbook formato() {
+        return FormatoEbook.EPUB;
     }
 }
