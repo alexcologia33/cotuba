@@ -12,6 +12,8 @@
 	<modules>
 		<module>cotuba-cli</module>
 		<module>cotuba-core</module>
+		<module>cotuba-epub</module>
+		<module>cotuba-pdf</module>
 		<module>estatisticasebook</module>
 		<module>temaparadizo</module>
 	</modules>

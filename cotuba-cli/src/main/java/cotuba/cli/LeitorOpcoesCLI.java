@@ -1,6 +1,7 @@
 package cotuba.cli;
 
 import cotuba.application.FormatoEbook;
+import cotuba.application.ParametrosOpcoesCLI;
 import org.apache.commons.cli.*;
 
 import java.nio.file.Files;

@@ -1,6 +1,5 @@
 package cotuba.application;
 
-import cotuba.cli.ParametrosOpcoesCLI;
 import cotuba.domain.Capitulo;
 import cotuba.domain.Ebook;
 import cotuba.plugin.AoFinalizarGeracao;

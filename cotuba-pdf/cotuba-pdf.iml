@@ -9,7 +9,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.4" level="project" />
     <orderEntry type="module" module-name="cotuba-core" />
     <orderEntry type="library" name="Maven: com.atlassian.commonmark:commonmark:0.11.0" level="project" />
     <orderEntry type="library" name="Maven: nl.siegmann.epublib:epublib-core:3.1" level="project" />
@@ -21,5 +20,6 @@
     <orderEntry type="library" name="Maven: com.itextpdf:kernel:7.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.itextpdf:io:7.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.11.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.4" level="project" />
   </component>
 </module>

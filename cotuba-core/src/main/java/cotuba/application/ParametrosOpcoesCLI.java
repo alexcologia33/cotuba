@@ -1,4 +1,4 @@
-package cotuba.cli;
+package cotuba.application;
 
 import cotuba.application.FormatoEbook;
 

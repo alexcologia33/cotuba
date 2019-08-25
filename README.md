@@ -55,3 +55,6 @@ java -cp "libs/*" cotuba.cli.Main -d exemplo -f epub
 
 Deverá ser gerado um arquivo chamado `book.epub`.
 
+```
+$HOME/git/cotuba/install-cotuba.sh && chmod 777 $HOME/cotuba/cotuba.sh && ./cotuba.sh -d $HOME/git/cotuba/exemplo -f epub
+```
