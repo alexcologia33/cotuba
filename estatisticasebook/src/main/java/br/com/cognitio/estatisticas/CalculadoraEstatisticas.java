@@ -2,17 +2,20 @@ package br.com.cognitio.estatisticas;
 
 import cotuba.domain.Capitulo;
 import cotuba.domain.Ebook;
+import cotuba.plugin.AcaoPosGeracao;
 import cotuba.plugin.AoFinalizarGeracao;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import java.text.Normalizer;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.function.Consumer;
 
 public class CalculadoraEstatisticas implements AoFinalizarGeracao {
 
     @Override
-    public void aposGeracao(Ebook ebook) {
+    public void aposGeracao(Ebook ebook, Consumer<String> acaoPosGeracao) {
         for (Capitulo capitulo : ebook.getCapitulos()) {
             String html = capitulo.getConteudoHTML();
             Document doc = Jsoup.parse(html);
@@ -27,8 +30,8 @@ public class CalculadoraEstatisticas implements AoFinalizarGeracao {
                 palavraContagemMap.adicionaPalavra(palavra.toUpperCase());
             }
 
-            for (Map.Entry<String, Integer> stringIntegerEntry : palavraContagemMap.entrySet()) {
-                System.out.println(String.format("%s: %d", stringIntegerEntry.getKey(), stringIntegerEntry.getValue()));
+            for (ContagemPalavras.Contagem contagem : palavraContagemMap) {
+                acaoPosGeracao.accept(contagem.toString());
             }
         }
     }

@@ -4,13 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.com.cotuba</groupId>
-	<artifactId>cotubaapp</artifactId>
+	<artifactId>cotuba</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>cotuba</module>
+		<module>cotuba-cli</module>
+		<module>cotuba-core</module>
 		<module>estatisticasebook</module>
 		<module>temaparadizo</module>
 	</modules>
