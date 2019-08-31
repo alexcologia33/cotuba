@@ -1,0 +1,89 @@
+modulos sao bibliotecas
+biliotecas tem um objetivo, resolvem um problema
+encapsulam a funcionaliade em um lugar
+
+
+principio da equivalencia, entrega e reuso
+
+granularidade do uso é a granularidade da entrega
+
+criando um frame
+1 - criar classes normalmente
+2 - percebe o reúso, selecionar classes
+3 - identifica classes que precisam de ajuste
+4 - Extrair
+
+
+principio do  agrupamento  comum
+principio do  agrupamento  comum
+principio do  reuso comum
+principio das dependencias aciclicas
+principio das dependencias estáveis
+principio das abstrações   estáveis
+
+
+
+agrupe classes que tem o mesmo motivo para serem modificadas
+
+donald knuth the ant of computer programming
+Dijkstra
+
+
+
+A DEPENDE DE B
+B DEPENDE DE A
+
+A e B inversao de dependencia
+
+o jar nao vem com classes da jdk, mas as mesmas sao carregadas na memoria quando o programa se inicia
+
+c encapsulamento vs java
+
+fabio akita go rotines
+
+
+reflection lisp
+
+reflection java
+
+grafana metricas
+
+sonar
+
+circuit breaker
+
+separar interesses
+
+meta programacao, anotacoes
+
+anotacoes exemplo JPA nao sao considerados acoplamento fortes entre camadas
+
+modelo alan turing implentacao computadores
+
+howtobuildacomputer
+
+phil calçado fragmentos de um programador
+
+
+relatorio pode ser um dominio ??
+nou se nao usar no dominio
+
+DDD
+
+portas e adaptadores
+
+dominio e implementacoes
+
+uncle bob:  Quebrar em modulo antes de micro serviço
+
+
+
+
+
+
+
+
+
+
+
+
